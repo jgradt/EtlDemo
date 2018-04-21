@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EtlDemoNetStandard.Etl;
+using System;
 
 namespace EtlDemoNetStandard
 {
@@ -10,6 +7,14 @@ namespace EtlDemoNetStandard
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("----Lets create a Rhino-ETL ----");
+            Console.WriteLine("--------------------------------");
+            // Here is the actual work. 
+            var etl = new MainEtlProcessor();
+            etl.Execute();
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine("----Hit any Rhino to exit------");
+            Console.ReadKey();
         }
     }
 }
