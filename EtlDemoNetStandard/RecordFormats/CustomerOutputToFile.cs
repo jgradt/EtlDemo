@@ -14,10 +14,8 @@ namespace EtlDemoNetStandard.RecordFormats
         [FieldQuoted]
         public string LastName;
 
-        [FieldQuoted]
         public string Ssn;
 
-        [FieldQuoted]
         [FieldConverter(ConverterKind.Date, "yyyy-MM-dd")]
         public DateTime? DateOfBirth;
 
@@ -30,20 +28,14 @@ namespace EtlDemoNetStandard.RecordFormats
         [FieldQuoted]
         public string State;
 
-        //[FieldQuoted]
         public string Zip;
 
-        //[FieldQuoted]
         public string MobilePhoneAreaCode;
 
-        //[FieldQuoted]
         public string MobilePhone;
 
-        //[FieldQuoted]
         public string HomePhoneAreaCode;
 
-        //
-        [FieldQuoted]
         public string HomePhone;
     }
 }

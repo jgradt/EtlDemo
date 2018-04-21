@@ -1,5 +1,4 @@
-﻿using EtlDemo.RecordFormats;
-using EtlDemoNetStandard.RecordFormats;
+﻿using EtlDemoNetStandard.RecordFormats;
 using Rhino.Etl.Core;
 using Rhino.Etl.Core.Operations;
 using System.Collections.Generic;

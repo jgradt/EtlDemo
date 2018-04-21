@@ -1,4 +1,4 @@
-﻿using EtlDemo.RecordFormats;
+﻿using EtlDemoNetStandard.RecordFormats;
 using FileHelpers;
 using Rhino.Etl.Core;
 using Rhino.Etl.Core.Operations;

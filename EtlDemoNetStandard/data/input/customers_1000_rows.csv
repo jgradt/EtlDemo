@@ -24,7 +24,7 @@ id,first_name,last_name,ssn,date_of_birth,address,city,state,zip,mobile_phone,ho
 23,Tailor,McCauley,473-88-0854,3/25/1974,02 Stang Court,Battle Creek,MI,49018,269-963-0720,218-206-5264,tmccauleym@facebook.com
 24,May,Osbiston,826-08-6628,9/21/1974,1 Pepper Wood Park,Evansville,IN,47719,812-364-4720,,mosbistonn@msn.com
 25,Laurence,O'Donovan,123-78-1560,2/13/1989,38430 Petterle Way,Peoria,IL,61629,309-462-9890,951-343-9493,lodonovano@sohu.com
-26,Erinna,Baldocci,817-52-1878,7/10/1992,57 Forest Run Pass,Chicago,IL,60619,312-771-3158,808-719-7742,ebaldoccip@wix.com
+26,Erinna,Baldocci,817-52-1878,7/10/1992,57 Forest Run Pass,Chicago,IL,6061,312-771-3158,808-719-7742,ebaldoccip@wix.com
 27,Ranna,Shillitoe,328-62-2952,7/6/1971,27677 Anzinger Place,Alexandria,VA,22301,202-499-4277,619-800-5579,rshillitoeq@hubpages.com
 28,Agretha,Opdenort,774-37-0516,8/3/1982,0 Armistice Court,Des Moines,IA,50310,515-442-1144,317-947-0413,aopdenortr@google.co.jp
 29,Elana,Pinilla,257-88-2900,7/11/1975,13543 Hollow Ridge Terrace,Atlanta,GA,30323,404-181-1968,,epinillas@springer.com
@@ -51,12 +51,12 @@ id,first_name,last_name,ssn,date_of_birth,address,city,state,zip,mobile_phone,ho
 50,Donn,Griffoen,703-34-9103,11/25/1983,0062 Crescent Oaks Drive,Juneau,AK,99812,,,dgriffoen1d@sourceforge.net
 51,Brandea,Szwandt,350-24-0797,4/16/1984,13222 New Castle Terrace,Las Vegas,NV,89130,702-643-2189,218-170-7479,bszwandt1e@com.com
 52,Duff,Labram,705-33-3852,12/9/1976,4 Manufacturers Hill,Palm Bay,FL,32909,561-965-3343,,dlabram1f@opensource.org
-53,Melisande,Rockhill,892-95-2600,12/8/1978,88062 7th Lane,Baltimore,MD,21211,443-987-0286,,mrockhill1g@slideshare.net
+53,Melisande,Rockhill,,12/8/1978,88062 7th Lane,Baltimore,MD,21211,443-987-0286,,
 54,Ibbie,Cornelisse,472-10-0053,7/18/1973,98 Magdeline Road,Houston,TX,77271,713-983-1171,617-703-9069,icornelisse1h@dion.ne.jp
 55,Thoma,Ruggs,826-28-9126,8/28/1990,6127 Del Mar Place,Seattle,WA,98158,360-792-6951,,truggs1i@webs.com
 56,Philippine,Angear,745-67-7494,2/4/1981,24 Sycamore Street,Washington,DC,20067,202-363-8188,,pangear1j@paypal.com
 57,Margalit,Strowther,691-54-1131,10/21/1981,35170 Eliot Way,Sacramento,CA,94257,916-745-9854,214-192-5675,mstrowther1k@blog.com
-58,Charin,Trask,114-72-3678,11/12/1979,768 Heffernan Place,Daytona Beach,FL,32118,386-998-9824,,ctrask1l@weather.com
+58,Charin,Trask,114-72-3678,11/12/1979,768 Heffernan Place,Daytona Beach,FL,3211a,386-998-9824,,ctrask1l@weather.com
 59,Inga,Kubik,849-61-3489,1/3/1992,853 Muir Pass,Albany,NY,12262,518-887-9265,202-351-7219,ikubik1m@seattletimes.com
 60,Aeriell,Pidgen,293-09-9213,3/7/1973,86 Lukken Trail,Muncie,IN,47306,765-891-4180,646-574-6430,apidgen1n@mozilla.org
 61,Anstice,Jump,609-71-3798,3/6/1986,486 Rieder Hill,Fresno,CA,93704,,985-183-6161,ajump1o@behance.net
