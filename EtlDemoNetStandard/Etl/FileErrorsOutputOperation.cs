@@ -13,7 +13,12 @@ namespace EtlDemoNetStandard.Etl
         {
             RejectedRecordsFilePath = rejectedRecordsFilePath;
             ErrorsFilePath = errorsFilePath;
+
+            OnFinishedProcessing += Operation_OnFinishedProcessing;
         }
+
+        private int errorCount = 0;
+        private int validRecordCount = 0;
 
         public string RejectedRecordsFilePath { get; set; }
         public string ErrorsFilePath { get; set; }
@@ -31,6 +36,8 @@ namespace EtlDemoNetStandard.Etl
                     {
                         if (!row.IsValid())
                         {
+                            errorCount++;
+
                             // write rejected record
                             var record = row.ToObject<CustomerInput>();
                             engine.WriteNext(record);
@@ -46,6 +53,7 @@ namespace EtlDemoNetStandard.Etl
                         }
                         else
                         {
+                            validRecordCount++;
                             yield return row;
                         }
 
@@ -55,5 +63,12 @@ namespace EtlDemoNetStandard.Etl
 
         }
 
+        private void Operation_OnFinishedProcessing(IOperation op)
+        {
+            Info("Row count with errors: {1}", op.Name, errorCount);
+            Info("Row count with valid records: {1}", op.Name, validRecordCount);
+            Info("Rejected Records File: '{0}'", Path.GetFullPath(RejectedRecordsFilePath));
+            Info("Errors File: '{0}'", Path.GetFullPath(ErrorsFilePath));
+        }
     }
 }
