@@ -10,12 +10,12 @@ id,first_name,last_name,ssn,date_of_birth,address,city,state,zip,mobile_phone,ho
 9,Linet,Canete,799-51-8187,12/7/1987,54 American Point,New York City,NY,10009,917-869-0899,,lcanete8@4shared.com
 10,Charmine,Vanni,590-67-6390,1/16/1994,3273 Arkansas Hill,Santa Monica,CA,90410,310-718-8923,570-419-8343,cvanni9@myspace.com
 11,Edna,Petrasch,213-98-3770,12/7/1983,1 Fieldstone Street,Syracuse,NY,13217,315-420-2542,,epetrascha@mlb.com
-12,Richie,Torrie,445-12-1091,11/12/1970,9 Ryan Parkway,Las Vegas,NV,89140,702-350-2257,,rtorrieb@rediff.com
+12abc,Richie,Torrie,445-12-1091,11/12/1970,9 Ryan Parkway,Las Vegas,NV,89140,702-350-2257,,rtorrieb@rediff.com
 13,Quinn,Eyers,888-58-8649,7/2/1983,362 Portage Lane,Colorado Springs,CO,80935,719-383-1359,480-374-7452,qeyersc@nyu.edu
 14,Oralle,Onele,163-20-5255,7/20/1983,221 Dwight Circle,Amarillo,TX,79188,806-777-9002,201-941-2460,ooneled@adobe.com
 15,Nichole,Fishpool,526-48-0871,7/6/1981,920 Sauthoff Avenue,Indianapolis,IN,46266,317-952-8098,518-461-2379,nfishpoole@gizmodo.com
 16,Cahra,Gayne,333-81-6721,1/28/1984,1 Ilene Pass,Tucson,AZ,85720,520-934-1216,,cgaynef@weibo.com
-17,Marietta,Plaskett,105-17-2913,7/26/1993,7 Vahlen Crossing,Amarillo,TX,79182,806-371-7073,301-517-9268,mplaskettg@cocolog-nifty.com
+17,Marietta,Plaskett,105-1-2913,7/26/1993,7 Vahlen Crossing,Amarillo,TX,79182,806-371-7073,301-517-9268,mplaskettg@cocolog-nifty.com
 18,Cristina,Sacase,698-22-7609,6/23/1978,8 Debra Center,Phoenix,AZ,85025,928-349-4586,,csacaseh@cafepress.com
 19,Mayne,Tanguy,791-19-6430,1/26/1979,5 Bultman Street,Grand Rapids,MI,49518,616-870-2373,,mtanguyi@fc2.com
 20,Krispin,Caccavella,361-54-8624,8/16/1983,33 3rd Road,Macon,GA,31296,478-623-1694,503-587-0477,kcaccavellaj@blogtalkradio.com
@@ -24,14 +24,14 @@ id,first_name,last_name,ssn,date_of_birth,address,city,state,zip,mobile_phone,ho
 23,Tailor,McCauley,473-88-0854,3/25/1974,02 Stang Court,Battle Creek,MI,49018,269-963-0720,218-206-5264,tmccauleym@facebook.com
 24,May,Osbiston,826-08-6628,9/21/1974,1 Pepper Wood Park,Evansville,IN,47719,812-364-4720,,mosbistonn@msn.com
 25,Laurence,O'Donovan,123-78-1560,2/13/1989,38430 Petterle Way,Peoria,IL,61629,309-462-9890,951-343-9493,lodonovano@sohu.com
-26,Erinna,Baldocci,817-52-1878,7/10/1992,57 Forest Run Pass,Chicago,IL,6061,312-771-3158,808-719-7742,ebaldoccip@wix.com
+26,Erinna,Baldocci,817-52-1878,7/10/199342,57 Forest Run Pass,Chicago,IL,6061,312-771-3158,808-719-7742,ebaldoccip@wix.com
 27,Ranna,Shillitoe,328-62-2952,7/6/1971,27677 Anzinger Place,Alexandria,VA,22301,202-499-4277,619-800-5579,rshillitoeq@hubpages.com
 28,Agretha,Opdenort,774-37-0516,8/3/1982,0 Armistice Court,Des Moines,IA,50310,515-442-1144,317-947-0413,aopdenortr@google.co.jp
 29,Elana,Pinilla,257-88-2900,7/11/1975,13543 Hollow Ridge Terrace,Atlanta,GA,30323,404-181-1968,,epinillas@springer.com
 30,Nerta,Itzcovichch,410-68-8115,3/20/1977,88 Algoma Way,New York City,NY,10270,212-348-2413,,nitzcovichcht@imgur.com
 31,Blinnie,Kalkofer,521-37-8309,8/17/1985,5 Cherokee Plaza,Columbus,MS,39705,662-802-9348,702-866-5940,bkalkoferu@nbcnews.com
 32,Spike,Victor,570-23-4730,9/3/1992,74 Hudson Park,San Antonio,TX,78245,210-406-1855,915-392-7631,svictorv@pen.io
-33,Sadella,Chivrall,257-35-7527,11/18/1986,44465 Old Gate Street,Las Vegas,NV,89160,702-183-1718,423-765-6160,schivrallw@vk.com
+33,Sadella,Chivrall,257-35-75274,11/18/1986,44465 Old Gate Street,Las Vegas,NV,89160,702-183-1718,423-765-6160,schivrallw@vk.com
 34,Elisha,Marzellano,389-11-6982,8/29/1980,92508 Carioca Circle,Gary,IN,46406,219-209-0154,513-451-0678,emarzellanox@is.gd
 35,Allix,Goldson,688-71-1902,3/25/1972,35 Sugar Park,Sacramento,CA,94230,916-445-5082,205-205-8237,agoldsony@cyberchimps.com
 36,Benton,Preble,269-87-1155,,287 Sherman Center,Lakewood,WA,98498,253-349-4597,,bpreblez@ft.com

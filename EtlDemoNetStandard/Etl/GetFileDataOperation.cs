@@ -24,7 +24,9 @@ namespace EtlDemoNetStandard.Etl
         {
 
             var engine = new FileHelperAsyncEngine<CustomerInput>();
+            //engine.ErrorMode = ErrorMode.SaveAndContinue;
 
+            // TODO: add error handling in case file path does not exist
             using (engine.BeginReadFile(FilePath))
             {
                 foreach (var record in engine)

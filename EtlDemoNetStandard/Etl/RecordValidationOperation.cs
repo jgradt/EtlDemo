@@ -18,6 +18,7 @@ namespace EtlDemoNetStandard.Etl
             {
                 var record = row.ToObject<CustomerInput>();
 
+                // TODO: lookup validator based on record type
                 var validator = new CustomerValidator();
                 var validationResult = validator.Validate(record);
                 row.SetValid(validationResult.IsValid);

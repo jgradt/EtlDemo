@@ -6,7 +6,7 @@ namespace EtlDemoNetStandard.RecordFormats
     [DelimitedRecord("|")]
     public class CustomerOutputToFile
     {
-        public int Id;
+        public string Id;
 
         [FieldQuoted]
         public string FirstName;

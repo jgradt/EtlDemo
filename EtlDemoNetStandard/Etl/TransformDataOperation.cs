@@ -1,6 +1,7 @@
 ﻿using EtlDemoNetStandard.RecordFormats;
 using Rhino.Etl.Core;
 using Rhino.Etl.Core.Operations;
+using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
@@ -8,7 +9,7 @@ namespace EtlDemoNetStandard.Etl
 {
     public class TransformDataOperation : AbstractOperation
     {
-        string phonePattern = @"(?<areaCode>\d{3})(?<phone>\d{7})";
+        string phonePattern = @"^(?<areaCode>\d{3})(?<phone>\d{7})$";
         static Dictionary<string, string> states;
 
         public override IEnumerable<Row> Execute(IEnumerable<Row> rows)
@@ -21,7 +22,7 @@ namespace EtlDemoNetStandard.Etl
                 var homePhone = (string)newRow[nameof(CustomerInput.HomePhone)];
 
                 // mobile phone
-                var match = Regex.Match(mobilePhone ?? "", phonePattern);
+                var match = Regex.Match(mobilePhone?.Replace("-","") ?? "", phonePattern);
                 if(match.Success)
                 {
                     newRow[nameof(CustomerOutputToFile.MobilePhoneAreaCode)] = match.Groups["areaCode"].Value;
@@ -34,7 +35,7 @@ namespace EtlDemoNetStandard.Etl
                 }
 
                 // home phone
-                match = Regex.Match(homePhone ?? "", phonePattern);
+                match = Regex.Match(homePhone?.Replace("-", "") ?? "", phonePattern);
                 if (match.Success)
                 {
                     newRow[nameof(CustomerOutputToFile.HomePhoneAreaCode)] = match.Groups["areaCode"].Value;
@@ -45,6 +46,10 @@ namespace EtlDemoNetStandard.Etl
                     newRow[nameof(CustomerOutputToFile.HomePhoneAreaCode)] = null;
                     newRow[nameof(CustomerOutputToFile.HomePhone)] = null;
                 }
+
+                // date of birth
+                var dob = (string)newRow[nameof(CustomerInput.DateOfBirth)];
+                newRow[nameof(CustomerOutputToFile.DateOfBirth)] = DateTime.TryParse(dob, out DateTime d) ? d : (DateTime?)null;
 
                 // state
                 var state = (string)newRow[nameof(CustomerInput.State)];
