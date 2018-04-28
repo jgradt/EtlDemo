@@ -4,7 +4,6 @@ using System.IO;
 
 namespace EtlDemoNetStandard.Etl
 {
-
     public class MainEtlProcessor : EtlProcess
     {
         protected override void Initialize()
@@ -14,12 +13,21 @@ namespace EtlDemoNetStandard.Etl
             var errorsFilePath = Path.Combine(Globals.OutputFileDirectory, "errors_output.txt");
             var outputFilePath = Path.Combine(Globals.OutputFileDirectory, "test_output.txt");
 
+            // get data operation
             Register(new GetFileDataOperation(inputFilePath));
+
+            // some validation and transformations
             Register(new RecordValidationOperation());
             Register(new FileErrorsOutputOperation(rejectedRecordsFilePath, errorsFilePath));
             Register(new TransformDataOperation());
-            Register(new ConsoleOutputOperation());
-            Register(new FileOutputOperation(outputFilePath));
+            //Register(new ConsoleOutputOperation());
+
+            // output operations
+            var splitOutput = new BranchingOperation()
+                .Add(Partial.Register(new FileOutputOperation(outputFilePath)))
+                .Add(Partial.Register(new BulkInsertToCustomerTableOperation("EtlDemoDbConnection")));
+            
+            Register(splitOutput);
 
             Info("########################");
             Info("Initializing ETL Process");

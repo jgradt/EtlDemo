@@ -7,13 +7,16 @@ namespace EtlDemoNetStandard
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("----Lets create a Rhino-ETL ----");
+            Console.WriteLine("----Etl Demo----");
             Console.WriteLine("--------------------------------");
+
             // Here is the actual work. 
+            Console.WriteLine("  Processing... ");
             var etl = new MainEtlProcessor();
             etl.Execute();
+
             Console.WriteLine("-------------------------------");
-            Console.WriteLine("----Hit any Rhino to exit------");
+            Console.WriteLine("----Hit any key to exit------");
             Console.ReadKey();
         }
     }

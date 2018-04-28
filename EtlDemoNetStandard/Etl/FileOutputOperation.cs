@@ -8,12 +8,12 @@ namespace EtlDemoNetStandard.Etl
 {
     public class FileOutputOperation : AbstractOperation
     {
+        public string FilePath { get; set; }
+
         public FileOutputOperation(string outputFilePath)
         {
             FilePath = outputFilePath;
         }
-
-        public string FilePath { get; set; }
 
         public override IEnumerable<Row> Execute(IEnumerable<Row> rows)
         {
