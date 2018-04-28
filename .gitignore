@@ -261,5 +261,5 @@ __pycache__/
 *.pyc
 
 
-/EtlDemoNetStandard/data/output/
-/EtlDemoNetStandard/logs/
+/EtlDemo/data/output/
+/EtlDemo/logs/
