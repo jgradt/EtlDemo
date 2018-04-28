@@ -3,7 +3,7 @@ using System;
 using System.Configuration;
 using System.Data.SqlClient;
 
-namespace EtlDemoNetStandard.Etl
+namespace EtlDemo.Etl
 {
     public class BulkInsertToCustomerTableOperation : SqlBulkInsertOperation
     {

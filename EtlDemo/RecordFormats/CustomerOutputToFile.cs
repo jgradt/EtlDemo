@@ -1,7 +1,7 @@
 ﻿using FileHelpers;
 using System;
 
-namespace EtlDemoNetStandard.RecordFormats
+namespace EtlDemo.RecordFormats
 {
     [DelimitedRecord("|")]
     public class CustomerOutputToFile

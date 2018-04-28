@@ -1,6 +1,6 @@
 ﻿using FileHelpers;
 
-namespace EtlDemoNetStandard.FieldConverters
+namespace EtlDemo.FieldConverters
 {
     /// <summary>
     /// Class used by FileHelpers library to convert values

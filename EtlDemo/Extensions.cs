@@ -1,6 +1,6 @@
 ﻿using Rhino.Etl.Core;
 
-namespace EtlDemoNetStandard
+namespace EtlDemo
 {
     internal static class Extensions
     {

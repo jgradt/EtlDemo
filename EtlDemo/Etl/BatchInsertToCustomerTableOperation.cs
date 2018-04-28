@@ -1,6 +1,6 @@
 ﻿using Rhino.Etl.Core.ConventionOperations;
 
-namespace EtlDemoNetStandard.Etl
+namespace EtlDemo.Etl
 {
     public class BatchInsertToCustomerTableOperation : ConventionSqlBatchOperation
     {

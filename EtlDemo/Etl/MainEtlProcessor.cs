@@ -2,7 +2,7 @@
 using Rhino.Etl.Core.Operations;
 using System.IO;
 
-namespace EtlDemoNetStandard.Etl
+namespace EtlDemo.Etl
 {
     public class MainEtlProcessor : EtlProcess
     {

@@ -1,11 +1,11 @@
-﻿using EtlDemoNetStandard.RecordFormats;
+﻿using EtlDemo.RecordFormats;
 using Rhino.Etl.Core;
 using Rhino.Etl.Core.Operations;
 using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace EtlDemoNetStandard.Etl
+namespace EtlDemo.Etl
 {
     public class TransformDataOperation : AbstractOperation
     {

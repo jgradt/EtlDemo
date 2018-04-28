@@ -1,11 +1,11 @@
-﻿using EtlDemoNetStandard.RecordFormats;
+﻿using EtlDemo.RecordFormats;
 using FileHelpers;
 using Rhino.Etl.Core;
 using Rhino.Etl.Core.Operations;
 using System.Collections.Generic;
 using System.IO;
 
-namespace EtlDemoNetStandard.Etl
+namespace EtlDemo.Etl
 {
     public class GetFileDataOperation : AbstractOperation
     {

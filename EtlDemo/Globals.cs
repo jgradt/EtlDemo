@@ -1,4 +1,4 @@
-﻿namespace EtlDemoNetStandard
+﻿namespace EtlDemo
 {
     internal static class Globals
     {

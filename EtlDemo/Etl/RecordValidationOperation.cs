@@ -1,10 +1,10 @@
-﻿using EtlDemoNetStandard.RecordFormats;
+﻿using EtlDemo.RecordFormats;
 using Rhino.Etl.Core;
 using Rhino.Etl.Core.Operations;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace EtlDemoNetStandard.Etl
+namespace EtlDemo.Etl
 {
     public class RecordValidationOperation : AbstractOperation
     {

@@ -1,10 +1,10 @@
-﻿using EtlDemoNetStandard.RecordFormats;
+﻿using EtlDemo.RecordFormats;
 using Rhino.Etl.Core;
 using Rhino.Etl.Core.Operations;
 using System;
 using System.Collections.Generic;
 
-namespace EtlDemoNetStandard.Etl
+namespace EtlDemo.Etl
 {
     public class ConsoleOutputOperation : AbstractOperation
     {

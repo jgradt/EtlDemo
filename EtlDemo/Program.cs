@@ -1,7 +1,7 @@
-﻿using EtlDemoNetStandard.Etl;
+﻿using EtlDemo.Etl;
 using System;
 
-namespace EtlDemoNetStandard
+namespace EtlDemo
 {
     class Program
     {

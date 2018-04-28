@@ -1,9 +1,9 @@
-﻿using EtlDemoNetStandard.FieldConverters;
+﻿using EtlDemo.FieldConverters;
 using FileHelpers;
 using System;
 using FluentValidation;
 
-namespace EtlDemoNetStandard.RecordFormats
+namespace EtlDemo.RecordFormats
 {
     [DelimitedRecord(","), IgnoreFirst(1)]
     public class CustomerInput
