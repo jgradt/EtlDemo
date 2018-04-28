@@ -47,12 +47,12 @@ namespace EtlDemoNetStandard.RecordFormats
             RuleFor(customer => customer.Ssn).Matches(@"^\d{3}-\d{2}-\d{4}$").WithMessage("SSN is invalid");
             RuleFor(customer => customer.DateOfBirth).NotEmpty().WithMessage("Date of birth is required");
             RuleFor(customer => customer.DateOfBirth).Must(val => DateTime.TryParse(val, out DateTime r)).WithMessage("Date of birth is not a valid date");
-            RuleFor(customer => customer.State).NotEmpty().WithMessage("Last name is required");
+            RuleFor(customer => customer.State).NotEmpty().WithMessage("State is required");
             RuleFor(customer => customer.Zip).NotEmpty().WithMessage("Zip code is required");
             RuleFor(customer => customer.Zip).Matches(@"^\d{5}$").WithMessage("Zip code must be 5 digits");
             RuleFor(customer => customer.Email).EmailAddress().WithMessage("Email address is invalid");
 
-            RuleFor(customer => customer).Must(customer => customer.HomePhone != null || customer.MobilePhone != null)
+            RuleFor(customer => customer).Must(customer => !string.IsNullOrWhiteSpace(customer.HomePhone) || !string.IsNullOrWhiteSpace(customer.MobilePhone))
                 .WithMessage("At least one phone number is required");
              
         }
